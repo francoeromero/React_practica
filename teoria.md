@@ -16,4 +16,6 @@ https://www.devjobsscanner.com/blog/the-most-demanded-frontend-frameworks-in-202
 <img src="https://www.devjobsscanner.com/assets/blog/frontend-framework-2022/frontend-framework-ranking-2.svg">
 <img src="https://www.devjobsscanner.com/assets/blog/frontend-framework-2022/frontend-framework-percentage-by-country-2.svg">
 
+
 React es una biblioteca a codigo abierto
+Con react se hace codigo declarativo, solo con JS HTML CSS se hace un codigo imperativo
