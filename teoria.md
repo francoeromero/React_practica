@@ -18,4 +18,12 @@ https://www.devjobsscanner.com/blog/the-most-demanded-frontend-frameworks-in-202
 
 
 React es una biblioteca a codigo abierto
-Con react se hace codigo declarativo, solo con JS HTML CSS se hace un codigo imperativo
+Con react se hace codigo declarativo, solo con JS HTML CSS se hace un codigo imperativo <br>
+
+# crear proyecto <br>
+
+cmd <br>
+npx create-react-app nombre_proyecto <br>
+cd nombre_proyecto <br>
+npm start <br>
+copiar "http://localhost:3000" para ver nuestro proyecto en tiempo real<br> 
