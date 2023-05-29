@@ -88,4 +88,45 @@ seria el estado de un componente
 
 ***Event Listener***: Funcion en JS que es ejecutada cuando ocurre un evento especifico, tambien es conocida como "Event Handler"
 
+resumen de los conceptos: 
+#
+**Props**: Las props son propiedades que se pasan de un componente padre a un componente hijo. Permiten transmitir datos de un componente a otro. Las props son inmutables y se accede a ellas a través del objeto props en el componente hijo.
+
+**Estado (State)**: El estado es un objeto que representa la información interna de un componente. Puede cambiar durante el ciclo de vida del componente y se utiliza para almacenar y manipular datos que pueden afectar la representación y el comportamiento del componente. El estado se inicializa en el constructor del componente y se actualiza mediante el método setState.
+
+***Hooks***: Los hooks son una característica introducida en React 16.8 que permite el uso de estado y otras características de React en componentes funcionales. Los hooks, como useState, useEffect y useContext, proporcionan una forma más concisa y legible de manejar el estado y el ciclo de vida en los componentes funcionales.
+
+**Event Listeners**: Los event listeners (escuchadores de eventos) se utilizan para manejar eventos interactivos, como hacer clic en un botón o ingresar texto en un campo de entrada. En React, los event listeners se agregan a los elementos JSX utilizando los nombres de los eventos, como onClick, onChange, etc. Al definir una función de controlador de eventos, se pueden realizar acciones basadas en la interacción del usuario.
+
+# JSX
+Es una extension de React nos permite describir en JS como se veran los componentes usando una structura similar a HTML
+
+Elemento: Unidades mas pequeñas en React. Definen lo que se ve en la pantalla.
+
+Diferencia entre elemento y Componente en react?
+
+Los ***componentes*** en React estan HECHOS de **elementos**
+
+React DOM : paquete que facilita la interaccion y actualizacion del DOM en aplicaciones React.
+
+DOM Document Objet Model: representacion en el navegador de todos los elementos que conforman una pagina o aplicacion web
+
+Atributos: puedes agregar atributos html con tus elementos en JSX para especificar ciertas caracteristicas:
+
+HTML:
+``` html
+<h1 class="titulo-azul"></h2>
+```
+JSX: (la diferencia es className)
+``` jsx
+<h1 className="titulo-azul"></h2>
+```
+HTML:
+``` html
+<label for="css">CSS</label>
+```
+JSX:(la diferencia es htmlFor)
+``` jsx
+<label htmlFor="css">CSS</label>
+```
 
