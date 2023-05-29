@@ -27,3 +27,65 @@ npx create-react-app nombre_proyecto <br>
 cd nombre_proyecto <br>
 npm start <br>
 copiar "http://localhost:3000" para ver nuestro proyecto en tiempo real<br> 
+
+# 
+
+React: **Biblioteca de JS** de codigo abierto, diseñada para crear interfaces de usuario.
+
+Biblioteca: Conjunto de **implementaciones** o subprogramas que podemos usar en nuestro codigo
+
+Ventajas: <br>
+- componentes reutilizables
+- crear aplicaciones dinamicas
+- facil de aprender
+
+#
+CONCEPTOS BASICOS
+- Componentes
+- Props
+- Estado
+- Hooks
+- Event Listener
+# COMPONENTES 
+
+Componente: Parte de la interfaz de usuario que es **independiente** y **reusable**
+
+Componente: <br>
+    1- Funcionales <br>
+    2- De Clase <br>
+
+***Componente Funcional** Es una funcion de JS que retorna un elemento de React(JSX) <br>
+
+- Debe retornar un elemento React (JSX)
+- Debe comenzar con una letra mayuscula (ej: **S**aludo)
+- Puede recibir valores si es necesario (ej: props)
+```javaScript
+function Saludo(props) {
+    return <h1>Hola, {props.nombre} </h1>
+}
+```
+los parametros de react: <br>
+Se refiere a la informacion que se representa sobre un componente <br>
+**props** = propiedades / properties
+
+Componente de Clase: Clase de ES6 que retorna un elemento JSX
+
+``` Javascript
+class Saludo extends React.Component{
+    render(){
+        return <h1>Hola, {this.props.nombre} </h1>
+    }
+}
+```
+#
+CONCEPTOS BASICOS
+# ESTADOS 
+
+***Estado***: Representacion en JS  del conjunto de propiedades de un componente y sus valores actuales,
+seria el estado de un componente
+
+**Hooks**: agregarle un cierto estado a nuestros componentes
+
+***Event Listener***: Funcion en JS que es ejecutada cuando ocurre un evento especifico, tambien es conocida como "Event Handler"
+
+
